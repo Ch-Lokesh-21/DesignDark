@@ -1,0 +1,1 @@
+Our project uses AI to automate the tedious process of creating functional web pages from wireframe designs, offering an intuitive interface, built-in code editor, preview, and secure storage.
