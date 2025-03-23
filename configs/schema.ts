@@ -15,3 +15,10 @@ export const WireFrameToCodeTable = pgTable("WireFrameToCode", {
     code: json(),
     createdBy: varchar()
 });
+
+export const Feedback = pgTable("Feedback", {
+    id: integer().primaryKey().generatedAlwaysAsIdentity(),
+    email: varchar({ length: 255 }).notNull(),
+    subject: varchar({ length: 255 }).notNull(),
+    message: varchar({ length: 255 }).notNull(),
+});
